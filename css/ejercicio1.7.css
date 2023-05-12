@@ -1,0 +1,52 @@
+body {
+    margin: 5px 5px 5px 5px;
+}
+
+h1 {
+    margin-left: 30%;
+    font-family: 'Lucida Sans Unicode';
+}
+
+h3 {
+    color:rgb(109, 216, 2);
+    margin-bottom: 0;
+    font-family: 'Lucida Sans Unicode';
+}
+
+hr {
+    margin-top: 0;
+}
+
+h4 {
+    color: lightsalmon;
+    font-family: 'Lucida Sans Unicode';
+}
+
+#t-verde {
+    color:rgb(109, 216, 2);
+}
+
+#t-naranja {
+    color: lightsalmon;
+}
+
+p {
+    font-family: 'Lucida Sans Unicode';
+}
+
+#d-total {
+    border: 10px rgb(196, 184, 184) solid;
+    padding: 15px 0px 5px 15px;
+    width: 95vw;
+}
+
+#d-sup {
+
+}
+
+#d-inf {
+    margin: 0 0 0 0;
+    padding: 10px 10px 10px 10px;
+    border: 2px grey solid;
+    width: 90vw;
+}
