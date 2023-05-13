@@ -1,5 +1,7 @@
 body {
     margin: 5px 5px 5px 5px;
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
@@ -38,7 +40,7 @@ p {
     border: 10px rgb(196, 184, 184) solid;
     padding: 15px 0px 5px 15px;
     width: 900px;
-    float: left
+    float: left;
 }
 
 #d-left {
@@ -93,8 +95,25 @@ ul {
     padding: 5px 5px 5px 40px;
 }
 
+li:hover {
+    background-image: linear-gradient(180deg, #fffeff 0%, rgb(255, 241, 223) 60%, rgb(249, 210, 162) 100%);
+}
+
+#li-especial:hover {
+    background-image: linear-gradient(180deg, #fffeff 0%, rgb(255, 241, 223) 60%, rgb(249, 210, 162) 100%);
+}
+
+#li-inicio:hover {
+background-image: linear-gradient(180deg, #fffeff 0%, rgb(255, 241, 223) 60%, rgb(249, 210, 162) 100%);
+}
+
 a {
     text-decoration: none;
     color: black;
 }
 
+#p-pie {
+    font-size: smaller;
+    color: grey;
+    margin-left: 50px;
+}
